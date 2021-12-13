@@ -16,11 +16,11 @@ def word_sets(length, dictionary):
 	return l
 
 
-def is_word(w, depth, dicts, running):
+def is_word(w, depth, dicts, running, ans_dict):
 	indent = "  " * depth
 	length_check = 8 - depth
 	if len(w) == 1:
-		print(running)
+		ans_dict[running[0]] = running
 	else:
 		for idx, letter in enumerate(w):
 			sub_word = remove_i_char(w, idx)
@@ -30,13 +30,11 @@ def is_word(w, depth, dicts, running):
 				# print(f"{indent}{sub_word}")
 				new_running = running.copy()
 				new_running.append(sub_word)
-				return is_word(sub_word, depth + 1, dicts, new_running)
+				return is_word(sub_word, depth + 1, dicts, new_running, ans_dict)
 
-def iterate_set(word_len, dicts):
+def iterate_set(word_len, dicts, ans_dict):
 	for w in dicts[word_len - 1]:
-		l = list()
-		l.append(w)
-		is_word(w, 1, dicts, l)
+		is_word(w, 1, dicts, list([w]), ans_dict)
 
 # turns out unix has a list of words at:
 # wc -l /usr/share/dict/words
@@ -46,4 +44,9 @@ with open("/usr/share/dict/words", "r") as word_file:
 b = word_sets(9, english_words)
 for l in b:
 	assert len(l) > 0
-iterate_set(9, b)
+ans_dict = dict()
+iterate_set(9, b, ans_dict)
+
+for v in ans_dict.values():
+	if v[-1] == "a" or v[-1] == "i":
+		print(v)

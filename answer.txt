@@ -1,3 +1,5 @@
+Using the unix words, I got all these results:
+
 ['branchery', 'brancher', 'rancher', 'rancer', 'racer', 'acer', 'aer', 'er', 'r']
 ['millioner', 'milliner', 'milline', 'millie', 'mille', 'mile', 'mil', 'mi', 'i']
 ['concreate', 'cocreate', 'ocreate', 'create', 'crate', 'rate', 'ate', 'te', 'e']
@@ -75,3 +77,24 @@
 ['turntable', 'turnable', 'tunable', 'unable', 'nable', 'able', 'ale', 'ae', 'e']
 ['dealation', 'delation', 'elation', 'lation', 'latin', 'lain', 'lin', 'in', 'n']
 ['shearsman', 'shearman', 'sherman', 'herman', 'herma', 'erma', 'era', 'ra', 'a']
+
+But if we're being real, the last "word" needs to be "a" or "i", right? That is the only single letter work that makes sense in common english. That leaves us with:
+
+['millinery', 'milliner', 'milline', 'millie', 'mille', 'mile', 'mil', 'mi', 'i']
+['estranger', 'stranger', 'strange', 'strang', 'stang', 'tang', 'tag', 'ta', 'a']
+['strangles', 'strangle', 'strange', 'strang', 'stang', 'tang', 'tag', 'ta', 'a']
+['camphoryl', 'camphory', 'camphor', 'campho', 'campo', 'camp', 'cap', 'ca', 'a']
+['tabularly', 'tabulary', 'tabular', 'tabula', 'taula', 'aula', 'ula', 'la', 'a']
+['strangler', 'stranger', 'strange', 'strang', 'stang', 'tang', 'tag', 'ta', 'a']
+['shearsman', 'shearman', 'sherman', 'herman', 'herma', 'erma', 'era', 'ra', 'a']
+['probeable', 'probable', 'probabl', 'probal', 'proal', 'proa', 'poa', 'pa', 'a']
+['externals', 'external', 'eternal', 'ternal', 'terna', 'tera', 'era', 'ra', 'a']
+['strophaic', 'strophic', 'trophic', 'tropic', 'topic', 'topi', 'toi', 'ti', 'i']
+['coronated', 'coronate', 'coronae', 'corona', 'coroa', 'cora', 'ora', 'ra', 'a']
+['coronaled', 'coronale', 'coronae', 'corona', 'coroa', 'cora', 'ora', 'ra', 'a']
+['barrabora', 'barabora', 'barabra', 'barbra', 'barra', 'bara', 'ara', 'ra', 'a']
+['ampullary', 'ampullar', 'ampulla', 'amulla', 'mulla', 'ulla', 'ula', 'la', 'a']
+['jatrophic', 'atrophic', 'trophic', 'tropic', 'topic', 'topi', 'toi', 'ti', 'i']
+['millioner', 'milliner', 'milline', 'millie', 'mille', 'mile', 'mil', 'mi', 'i']
+
+But of these words, the two letter words are a stretch. 
