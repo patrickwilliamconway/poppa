@@ -18,6 +18,7 @@ I'm pulling the words from `/usr/share/dict/words`.
 <details open>
 <summary>Using the unix words, I got all these results:</summary>
 <br>
+
 - ['branchery', 'brancher', 'rancher', 'rancer', 'racer', 'acer', 'aer', 'er', 'r']
 
 - ['millioner', 'milliner', 'milline', 'millie', 'mille', 'mile', 'mil', 'mi', 'i']
@@ -179,6 +180,7 @@ But if we're being real, the last "word" needs to be "a" or "i", right? That is 
 <details open>
 <summary>That leaves us with:</summary>
 <br>
+
 - ['millinery', 'milliner', 'milline', 'millie', 'mille', 'mile', 'mil', 'mi', 'i']
 
 - ['estranger', 'stranger', 'strange', 'strang', 'stang', 'tang', 'tag', 'ta', 'a']
@@ -218,6 +220,7 @@ But of these words, the two letter words are a stretch.
 <details open>
 <summary>I think the most likely options are:</summary>
 <br>
+
 - ['estranger', 'stranger', 'strange', 'strang', 'stang', 'tang', 'tag', 'ta', 'a']
 
 - ['strangles', 'strangle', 'strange', 'strang', 'stang', 'tang', 'tag', 'ta', 'a']
