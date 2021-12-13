@@ -34,7 +34,9 @@ def is_word(w, depth, dicts, running):
 
 def iterate_set(word_len, dicts):
 	for w in dicts[word_len - 1]:
-		is_word(w, 1, dicts, list([w]))
+		l = list()
+		l.append(w)
+		is_word(w, 1, dicts, l)
 
 # turns out unix has a list of words at:
 # wc -l /usr/share/dict/words
